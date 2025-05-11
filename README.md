@@ -12,5 +12,5 @@
 | Release fist                | Changing from FIST to any other pose.           | Drop (release drag)            |
 | Two fingers extended              | Index and Middle fingers up, others curled.  | Enter scroll mode              |
 | Hand move in scroll mode    | Move your hand vertically up or down while in two fingers extended pose.    | Vertical scroll                |
-| Open hand    | All fingers extended, with some distance between them. | Arrow key presses / navigation. Move your open hand left, right, up or down.   |
-|  Two open hands     |   Requires both hands to be in the open hand pose.  | Zoom in/out (Ctrl + scroll)  |
+| Open hand    | All fingers extended, with some distance between them. Move your open hand left, right, up or down. | Arrow key presses / navigation.    |
+|  Two open hands     |   Requires both hands to be in the open hand pose. Move your hands away from each other to zoom out, move your hands closer to each other to zoom in. | Zoom in/out (Ctrl + scroll)  |
