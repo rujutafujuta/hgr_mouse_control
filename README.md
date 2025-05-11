@@ -1,16 +1,16 @@
-## How to run: 
+# How to run: 
 1. pip install -r requirements.txt 
 2. python run.py
 
-# gestures :
-| Gesture                     | Event Detected       | Action Performed               |
+# Gestures :
+| Pose                     | Pose description      | Action Performed               |
 | --------------------------- | -------------------- | ------------------------------ |
-| Index finger up             | CURSOR\_MOVE         | Move mouse cursor              |
-| Pinch                       | LEFT\_CLICK          | Left click                     |
-| Double pinch (quick repeat) | DOUBLE\_CLICK        | Double click                   |
-| Fist (hold)                 | DRAG\_START / MOVE   | Click and drag                 |
-| Release fist                | DROP\_END            | Drop (release drag)            |
-| Two fingers up              | SCROLL\_MODE\_START  | Enter scroll mode              |
-| Hand move in scroll mode    | SCROLL\_UP / DOWN    | Vertical scroll                |
-| Both hands spread/pinch     | ZOOM\_IN / ZOOM\_OUT | Zoom in/out (Ctrl + scroll)    |
-| Fast swipe (open hand)      | SWIPE\_LEFT, etc.    | Arrow key presses / navigation |
+| Index finger up             | Index finger up, others curled.       | Move mouse cursor              |
+| Pinch                      | Thumb tip close to index finger tip,  others curled.       | Left click                     |
+| Double pinch  | Two quick pinches.        | Double click                   |
+| Fist (hold)                 | All fingers curled in.   | Click and drag                 |
+| Release fist                | Changing from FIST to any other pose.           | Drop (release drag)            |
+| Two fingers extended              | Index and Middle fingers up, others curled.  | Enter scroll mode              |
+| Hand move in scroll mode    | Move your hand vertically up or down while in two fingers extended pose.    | Vertical scroll                |
+| Open hand    | All fingers extended, with some distance between them. | Arrow key presses / navigation. Move your open hand left, right, up or down.   |
+|  Two open hands     |   Requires both hands to be in the open hand pose.  | Zoom in/out (Ctrl + scroll)  |
